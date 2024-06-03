@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang=“th”>
+
+
+<head>
+    <title>Kuronuma Bento</title>
+    <link rel="stylesheet" href="style_index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        #main_bento,
+        #icon_main,
+        #appi_bento,
+        #icon_appi,
+        #sd_bento,
+        #icon_sd,
+        #dessert_bento,
+        #icon_dessert,
+        #rice_bento,
+        #icon_rice {
+            color: #2f2f2f;
+            font-size: 20px;
+        }
+
+        #bt {
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+            
+        }
+
+        #bt_rice {
+            width: 250px;
+            height: 150px;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png" class="logo"></a>
+            <div class="nav-links">
+                <p class="language">
+                    Chang Language&nbsp=>&nbsp<a href="#" language="Thai" class="active"
+                        onclick="changeLanguage('Thai')">Thai</a>&nbsp
+                    &nbsp<a href="#" language="Eng" id="eng" onclick="changeLanguage('Eng')">Eng</a>
+                </p>
+                <br>
+                <ul>
+                    <li class="home"><a href="index.html" id="home">หน้าหลัก</a></li>
+                    <li class="pro"><a href="" id="pro">โปรโมชั่น</a></li>
+                    <li class="recomment"><a href="" id="rec">เมนูแนะนำ</a></li>
+                    <li class="contact"><a href="" id="contact">ติดต่อเรา</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section class="body" id="body">
+        <div class="topic" id="topic">
+        </div>
+        <div class="menu" id="menu">
+            <img src="creat2.png" width="500px">
+        </div>
+        <div class="table">
+            <center>
+                <table class="bento">
+                    <tr>
+                        <td rowspan="2" class="benmain" id="benmain"><a href="main.html"><button id="bt"><i
+                                        class='bx bx-dish' id="icon_main"></i><br><span
+                                        id="main_bento">จานหลัก<br>CLICK</span></button></a></td>
+                        <td colpan="4" class="benveg" id="benappi"><a href="appi.html"><button id="bt"><i
+                                        class='bx bx-cheese' id="icon_appi"></i><br><span
+                                        id="appi_bento">อาหารทานเล่น<br>CLICK</span></button></a></td>
+                        <td colspan="2" class="benappi" id="side_dishes"><a href="side_dish.html"><button id="bt"><i
+                                        class='bx bx-sushi' id="icon_sd"></i><br><span
+                                        id="sd_bento">เครื่องเคียง<br>CLICK</span></button></a></td>
+                        <td class="bensoup" id="bendessert"><a href="dessert.html"><button id="bt"><i
+                                        class='bx bxs-popsicle'
+                                        id="icon_dessert"></i><br><span id="dessert_bento">ของหวาน<br>CLICK</span></button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="benrice">
+                            <a href="rice.html"><button id="bt_rice"><i class='bx bxs-bowl-rice'
+                                        id="icon_rice"></i><br><span id="rice_bento">ข้าว<br>CLICK</span></button></a>
+                        </td>
+
+                    </tr>
+                </table>
+            </center>
+        </div>
+
+
+    </section>
+    </section>
+    
+
+
+    <script src="change_lang.js"></script>
+</body>
+<footer>
+    <br>
+    <br>
+    <br>
+    <center><h1>Computer Science , Silpakorn University</h1></center>
+</footer>
+</html>

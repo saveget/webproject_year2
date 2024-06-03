@@ -1,0 +1,211 @@
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    min-height:5vh;
+    width: 100%;
+    background-image: linear-gradient(to right,#ff58c5,#ffdb4d),url(header1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Noto Sans Thai", sans-serif;
+}
+nav img{
+    width: 150px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-table;
+    padding: 8px 12px;
+    position: relative;
+    background-color: #ba0179;
+    backdrop-filter: blur(90px);
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+.nav-links ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease .4s;
+}
+
+.nav-links ul li p{
+    color: #cd8bff;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.logo{
+    width: 200px;
+}
+
+.nav-links ul li a:hover{
+    color: rgb(255, 251, 143);
+}
+
+.nav-links ul li:hover{
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.nav-links p{
+    color: #ffff;
+}
+
+.nav-links p a{
+    color: rgb(93, 0, 133);
+    justify-content: space-between;
+}
+
+.cart img{
+    width: 40px;
+}
+.cart{
+    background-color: transparent;
+}
+
+.body{
+    min-height: 130vh;
+    width: 100%;
+    background-color: rgba(255, 252, 191, 0.543);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    backdrop-filter: blur(200px);
+    font-family: "Noto Sans Thai", sans-serif;
+}
+
+.table{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    align-items: center;
+    top: 47%;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.table table td{
+    padding: 5px 5px;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    text-align: center;
+    border: 5px solid rgb(93, 93, 93);
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.table table{
+    border-spacing: 5px;
+}
+.body .topic p{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.benmain{
+    background-image: url(mainbg.png);
+}
+
+.benrice{
+    background-image: url(ricebg.png);
+}
+
+.bensoup{
+    background-image: url(soupg.png);
+}
+
+.benappi{
+    background-image: url(appibg.png);
+}
+
+.benveg{
+    background-image: url(vegbg.png);
+}
+
+
+
+
+footer{
+    min-height: 15vh;
+    width: 100%;
+    background-image: linear-gradient(to right,#FF58C4,#FFDA4D),url(header1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.benrice a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:50px;
+    transition: all ease .4s;
+    background-color: rgba(243, 111, 255, 0.851);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+}
+
+.mart i{
+    color: rgb(93, 121, 145);
+    position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-table;
+    padding: 8px 12px;
+    position: relative;
+    backdrop-filter: blur(90px);
+    border-radius: 30px;
+    font-size: 16px;
+    border-spacing: 10px;
+}
+
+.menu{
+    flex: 1;
+    text-align: center;
+}
+
+.menu p a{
+    color: rgb(9, 91, 0);
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    color: #FF58C4;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.menu ul li a:hover{
+    color: #000000;
+}
+
