@@ -2,9 +2,9 @@
 <?php
 require 'productConnection.php';
 if(isset($_POST["confirm"])){
-  
+
   $query2 = "UPDATE Orders SET status_served = 'Yes'";
-  
+
   mysqli_query($conn,$query2);
   echo
   "
